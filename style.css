@@ -1,0 +1,140 @@
+/*input text */
+.container input[type=Email], input[type=Mobileno], input[type=Name] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 10px 0;
+    display: inline-block;
+    background: none;
+    border-radius: 30px;
+  }
+  /* form control*/
+  .form-control input[type=text], input[type=mobile], input[type=Email], input[type=Name]
+  {
+
+    border-radius: 25px;
+    padding: 25px;
+    box-sizing: border-box;
+    
+  }
+  /* input focus */
+  input[type=email]:focus, input[type=mn]:focus, input[type=text] {
+    outline: none;
+  }
+   /* join cancel btn */
+   .cancelbtn {
+    margin-bottom:10px;
+    padding: 5px 5px;
+    background-color:rgb(90, 197, 90);
+    border-radius: 25px;
+    
+    
+  }
+  /* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+    float: left;
+    width: 20%;
+  }
+  
+  /* join signup btn*/
+  .signupbtn {
+    margin-bottom:5px;
+    padding: 5px 5px;
+    background-color: skyblue;
+    border-radius: 25px;
+
+  }
+  /* h1 changes*/
+h1 {
+    text-shadow: 2px 2px 5px dodgerblue;
+    letter-spacing: 4px;
+}
+/* nav link*/
+.nav-link
+{
+    margin: 0;
+    padding: 0;
+    font-style: bold;
+}
+/* navbar growing crazy4car*/
+.growing
+{
+    margin: 0;
+    padding: 0;
+    color:black;
+    font: 8em;
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    font-family: 'bold';
+}
+/*h5 */
+h5 span
+{
+    display: table-cell;
+    margin: 0;
+    padding: 0;
+    animation: animate 3s linear infinite;
+}
+h5 span:nth-child(1)
+{
+    animation-delay: 0s;
+}
+h5 span:nth-child(2)
+{
+    animation-delay: 0.25s;
+}
+h5 span:nth-child(3)
+{
+    animation-delay: 0.5s;
+}
+h5 span:nth-child(4)
+{
+    animation-delay: 0.75s;
+}
+h5 span:nth-child(5)
+{
+    animation-delay: 1s;
+}
+h5 span:nth-child(6)
+{
+    animation-delay:1.25s;
+}
+h5 span:nth-child(7)
+{
+    animation-delay:1.5s;
+}
+h5 span:nth-child(8)
+{
+    animation-delay: 1.75s;
+}
+h5 span:nth-child(9)
+{
+    animation-delay: 2s;
+}
+h5 span:nth-child(10)
+{
+    animation-delay: 2.25s;
+}
+h5 span:nth-child(11)
+{
+    animation-delay: 2.5s;
+}
+@keyframes animate
+{
+    0%,100%
+    {
+        color: #fff;
+        text-shadow: 0 0 10px #00b3ff,
+                    0 0 20px #00b3ff,
+                    0 0 40px #00b3ff,
+                    0 0 80px #00b3ff,
+                    0 0 120px #00b3ff,
+                    0 0 200px #00b3ff;
+    }
+    5%,95%
+    {
+        color:black;
+        filter: blur(0px);
+        text-shadow: 0 0 10px none;
+    }
+}
